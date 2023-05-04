@@ -6,7 +6,7 @@ spring:
     hibernate:
       ddl-auto: true
       hbm2ddl:
-        auto: none
+        auto: "validate"
   datasource:
     url: "jdbc:mysql://localhost:3306/course"
     username: "course"

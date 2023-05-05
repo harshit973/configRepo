@@ -1,6 +1,9 @@
 server:
   port: 8080
 spring:
+  security:
+    user:
+      password: "password"
   jpa:
     database-platform: "org.hibernate.dialect.MySQL8Dialect"
     hibernate:

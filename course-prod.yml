@@ -2,7 +2,7 @@ server:
   port: 8080
 spring:
   autoconfigure:
-    exclude: "org.springframework.boot.autoconfigure.security.SecurityAutoConfiguration"
+    exclude: org.springframework.boot.autoconfigure.security.SecurityAutoConfiguration
   security:
     user:
       password: "password"

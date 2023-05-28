@@ -13,4 +13,5 @@ spring:
     username: "course"
     password: "course"
 erp:
-  user: "http://localhost:8081"
+  user: "http://localhost:8081/user"
+  educator: "http://localhost:8081/educator"

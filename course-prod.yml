@@ -9,7 +9,7 @@ spring:
     hibernate:
       ddl-auto: "validate"
   datasource-course:
-    url: "jdbc:mysql://localhost:3306/course"
+    jdbcUrl: "jdbc:mysql://localhost:3306/course"
     username: "course"
     password: "course"
 erp:

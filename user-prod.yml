@@ -6,6 +6,6 @@ spring:
     hibernate:
       ddl-auto: "validate"
   datasource-user:
-    url: "jdbc:mysql://localhost:3306/user"
+    jdbcUrl: "jdbc:mysql://localhost:3306/user"
     username: "user"
     password: "user"
